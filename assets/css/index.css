@@ -1,0 +1,272 @@
+*, ::before, ::after { box-sizing: border-box; -webkit-user-select: unset; }
+body, h1, h2, h3, p { margin: 0px; }
+html:focus-within { scroll-behavior: smooth; }
+body { min-height: 100vh; text-rendering: optimizespeed; line-height: 1.5; }
+img { max-width: 100%; display: block; }
+button { font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit; }
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within { scroll-behavior: auto; }
+  *, ::before, ::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}
+@supports (-webkit-touch-callout: none) {
+  body { min-height: -webkit-fill-available; }
+}
+body { font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif; font-size: 14px; color: rgb(22, 24, 35); background-color: rgb(255, 255, 255); overscroll-behavior: contain; direction: ltr; -webkit-font-smoothing: antialiased; }
+body a { color: rgb(22, 24, 35); transition: color 250ms; text-decoration-style: solid; text-decoration-color: currentcolor; text-decoration: none; cursor: pointer; }
+body a:visited { color: rgb(22, 24, 35); }
+body a:hover { color: rgb(22, 24, 35); text-decoration-style: solid; text-decoration-color: currentcolor; text-decoration: underline; }
+body a:active { color: rgb(22, 24, 35); }
+body a:focus { color: rgb(22, 24, 35); }
+body a, body div, body h1, body h2, body h3, body img, body p, body span, body strong { font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif; }
+body strong { font-weight: 700; }
+*, ::before, ::after { box-sizing: border-box; -webkit-user-select: unset; }
+body, h1, h2, h3, p { margin: 0px; }
+html:focus-within { scroll-behavior: smooth; }
+body { min-height: 100vh; text-rendering: optimizespeed; line-height: 1.5; }
+img { max-width: 100%; display: block; }
+button { font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit; }
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within { scroll-behavior: auto; }
+  *, ::before, ::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}
+@supports (-webkit-touch-callout: none) {
+  body { min-height: -webkit-fill-available; }
+}
+body { font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif; font-size: 14px; color: rgb(22, 24, 35); background-color: rgb(255, 255, 255); overscroll-behavior: contain; direction: ltr; -webkit-font-smoothing: antialiased; }
+body a { color: rgb(22, 24, 35); transition: color 250ms; text-decoration-style: solid; text-decoration-color: currentcolor; text-decoration: none; cursor: pointer; }
+body a:visited { color: rgb(22, 24, 35); }
+body a:hover { color: rgb(22, 24, 35); text-decoration-style: solid; text-decoration-color: currentcolor; text-decoration: underline; }
+body a:active { color: rgb(22, 24, 35); }
+body a:focus { color: rgb(22, 24, 35); }
+body a, body div, body h1, body h2, body h3, body img, body p, body span, body strong { font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif; }
+body strong { font-weight: 700; }
+@font-face { font-family: TikTokFont; src: local("TikTokFont-Regular"), url("fonts/TikTokFont-Regular.woff2?_default_font=1&v=2") format("woff2"), url("fonts/TikTokFont-Regular.woff?_default_font=1&v=2") format("woff"), url("fonts/TikTokFont-Regular.otf?_default_font=1&v=2") format("opentype"); font-weight: 400; font-style: normal; font-display: fallback; }
+@font-face { font-family: TikTokFont; src: local("TikTokFont-Medium"), url("fonts/TikTokFont-Semibold.woff2?_default_font=1&v=2") format("woff2"), url("fonts/TikTokFont-Semibold.woff?_default_font=1&v=2") format("woff"), url("fonts/TikTokFont-Semibold.otf?_default_font=1&v=2") format("opentype"); font-weight: 500; font-style: normal; font-display: fallback; }
+@font-face { font-family: TikTokFont; src: local("TikTokFont-Medium"), url("fonts/TikTokFont-Semibold.woff2?_default_font=1&v=2") format("woff2"), url("fonts/TikTokFont-Semibold.woff?_default_font=1&v=2") format("woff"), url("fonts/TikTokFont-Semibold.otf?_default_font=1&v=2") format("opentype"); font-weight: 600; font-style: normal; font-display: fallback; }
+@font-face { font-family: TikTokFont; src: local("TikTokFont-Bold"), url("fonts/TikTokFont-Bold.woff2?_default_font=1&v=2") format("woff2"), url("fonts/TikTokFont-Bold.woff?_default_font=1&v=2") format("woff"), url("fonts/TikTokFont-Bold.otf?_default_font=1&v=2") format("opentype"); font-weight: 700; font-style: normal; font-display: fallback; }
+@font-face { font-family: TikTokDisplayFont; src: url("fonts/TikTokDisplayFont-Regular.woff2?_default_font=1&v=2") format("woff2"), url("fonts/TikTokDisplayFont-Regular.woff?_default_font=1&v=2") format("woff"), url("fonts/TikTokDisplayFont-Regular.otf?_default_font=1&v=2") format("opentype"); font-weight: 400; font-style: normal; font-display: fallback; }
+@font-face { font-family: TikTokDisplayFont; src: url("fonts/TikTokDisplayFont-Semibold.woff2?_default_font=1&v=2") format("woff2"), url("fonts/TikTokDisplayFont-Semibold.woff?_default_font=1&v=2") format("woff"), url("fonts/TikTokDisplayFont-Semibold.otf?_default_font=1&v=2") format("opentype"); font-weight: 500; font-style: normal; font-display: fallback; }
+@font-face { font-family: TikTokDisplayFont; src: url("fonts/TikTokDisplayFont-Semibold.woff2?_default_font=1&v=2") format("woff2"), url("fonts/TikTokDisplayFont-Semibold.woff?_default_font=1&v=2") format("woff"), url("fonts/TikTokDisplayFont-Semibold.otf?_default_font=1&v=2") format("opentype"); font-weight: 600; font-style: normal; font-display: fallback; }
+@font-face { font-family: TikTokDisplayFont; src: url("fonts/TikTokDisplayFont-Bold.woff2?_default_font=1&v=2") format("woff2"), url("fonts/TikTokDisplayFont-Bold.woff?_default_font=1&v=2") format("woff"), url("fonts/TikTokDisplayFont-Bold.otf?_default_font=1&v=2") format("opentype"); font-weight: 700; font-style: normal; font-display: fallback; }
+body { overflow: hidden; }
+.css-sp6z8n-DivShareLayoutHeader { position: relative; flex: 0 0 auto; margin: 44px 0px 16px; box-sizing: border-box; }
+@media screen and (min-width: 1920px) and (min-aspect-ratio: 16 / 9) {
+  .css-sp6z8n-DivShareLayoutHeader { margin: 96px 0px 16px; }
+}
+.css-1xpxs9t-DivShareInfo { display: flex; flex-direction: column; -webkit-box-align: center; align-items: center; padding: 8px 0px 0px; box-sizing: border-box; }
+.css-1spjd0k-DivShareTitleContainer { margin-top: 12px; display: flex; flex-direction: column; -webkit-box-align: center; align-items: center; width: 100%; }
+.css-ilzla6-H2ShareTitle { color: rgb(22, 24, 35); font-size: 17px; line-height: 20px; margin-bottom: 14px; display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; font-weight: 600; width: 100%; text-align: center; }
+@media screen and (min-width: 1920px) {
+  .css-ilzla6-H2ShareTitle { font-size: 36px; line-height: 52px; }
+}
+.css-16n28l2-DivNumber { width: 33%; position: relative; }
+.css-acdeb2-StrongNumber { color: rgb(22, 24, 35); font-family: TikTokFont; font-weight: 700; font-size: 17px; line-height: 20px; display: block; text-align: center; }
+@media screen and (min-width: 1920px) {
+  .css-acdeb2-StrongNumber { font-size: 32px; line-height: 48px; }
+}
+.css-1oh71pm-SpanUnit { color: rgba(22, 24, 35, 0.5); font-family: TikTokFont; font-weight: 400; font-size: 13px; line-height: 17px; display: block; text-align: center; }
+@media screen and (min-width: 1920px) {
+  .css-1oh71pm-SpanUnit { font-size: 28px; line-height: 44px; }
+}
+.css-jrflml-DivContentContainer { background: rgb(255, 255, 255); }
+.css-jrflml-DivContentContainer * { -webkit-tap-highlight-color: transparent; }
+.css-jrflml-DivContentContainer *, .css-jrflml-DivContentContainer::after, .css-jrflml-DivContentContainer::before { box-sizing: border-box; }
+@media screen and (min-width: 1920px) {
+  .css-jrflml-DivContentContainer { -webkit-user-select: none; }
+}
+.css-15rauer-DivTopHeaderLeft { left: 4px; display: flex; -webkit-box-pack: center; justify-content: center; -webkit-box-align: center; align-items: center; width: 40px; height: 40px; position: absolute; flex-shrink: 0; }
+.css-15rauer-DivTopHeaderLeft > svg { width: 22px; height: 22px; }
+@media screen and (min-width: 1920px) {
+  .css-15rauer-DivTopHeaderLeft > svg { width: 44px; height: 44px; }
+}
+@media screen and (min-width: 1920px) {
+  .css-15rauer-DivTopHeaderLeft { left: 20px; }
+}
+.css-1a2xidn-DivTopHeaderRight { right: 4px; display: flex; -webkit-box-pack: center; justify-content: center; -webkit-box-align: center; align-items: center; width: 40px; height: 40px; position: absolute; flex-shrink: 0; }
+.css-1a2xidn-DivTopHeaderRight > svg { width: 22px; height: 22px; }
+@media screen and (min-width: 1920px) {
+  .css-1a2xidn-DivTopHeaderRight > svg { width: 44px; height: 44px; }
+}
+@media screen and (min-width: 1920px) {
+  .css-1a2xidn-DivTopHeaderRight { right: 20px; }
+}
+.css-18fpq9d-DivThreeColumnContainer { width: 100%; display: grid; row-gap: 1px; column-gap: 1px; grid-template-columns: repeat(3, 1fr); }
+.css-18fpq9d-DivThreeColumnContainer::after { content: ""; height: 0px; display: block; clear: both; }
+@media screen and (min-width: 800px) {
+  .css-18fpq9d-DivThreeColumnContainer { grid-template-columns: repeat(4, 1fr); }
+}
+@media screen and (min-width: 1150px) {
+  .css-18fpq9d-DivThreeColumnContainer { grid-template-columns: repeat(5, 1fr); }
+}
+@media screen and (min-width: 1440px) {
+  .css-18fpq9d-DivThreeColumnContainer { grid-template-columns: repeat(6, 1fr); }
+}
+@media screen and (min-width: 1920px) and (min-aspect-ratio: 8 / 3) {
+  .css-18fpq9d-DivThreeColumnContainer { grid-template-columns: repeat(4, 1fr); }
+}
+.css-ps7kg7-DivThreeColumnItemContainer { position: relative; display: flex; width: 100%; }
+.css-1r7yj70-DivContainer { position: relative; width: 100%; background: rgba(22, 24, 35, 0.03); }
+.css-yz6ijl-DivWrapper { position: absolute; inset: 0px; }
+.css-x5v6mr-DivShareLayout { overflow: hidden; position: fixed; inset: 0px; display: flex; flex-direction: column; background: rgb(255, 255, 255); }
+.css-x5v6mr-DivShareLayout::-webkit-scrollbar { display: none; width: 0px !important; height: 0px !important; }
+.css-134b9f9-DivFlex1 { position: relative; flex: 1 1 0%; max-height: calc(100% - 49px); }
+@media screen and (min-width: 800px) {
+  .css-134b9f9-DivFlex1 { max-height: calc(100% - 56px); }
+}
+@media screen and (min-width: 1150px) {
+  .css-134b9f9-DivFlex1 { max-height: calc(100% - 64px); }
+}
+@media screen and (min-width: 1440px) {
+  .css-134b9f9-DivFlex1 { max-height: calc(100% - 72px); }
+}
+@media screen and (max-width: 800px) and (min-aspect-ratio: 640 / 320) {
+  .css-134b9f9-DivFlex1 { max-height: calc(100% - 32px); }
+}
+@media screen and (min-width: 1920px) and (min-aspect-ratio: 16 / 9) {
+  .css-134b9f9-DivFlex1 { max-height: calc(100% - 96px); }
+}
+@media screen and (max-height: 640px) {
+  .css-134b9f9-DivFlex1 { max-height: calc(100% - 42px); }
+}
+@media screen and (min-width: 1920px) and (min-aspect-ratio: 8 / 3) {
+  .css-134b9f9-DivFlex1 { max-height: calc(100% - 80px); }
+}
+.css-ei5y6g-DivShareLayoutTopHeader { color: rgb(22, 24, 35); font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif; font-weight: 700; font-size: 18px; line-height: 25px; position: fixed; top: 0px; left: 0px; background-color: rgb(255, 255, 255); text-align: center; padding: 0px; display: flex; -webkit-box-pack: center; justify-content: center; -webkit-box-align: center; align-items: center; width: 100vw; height: 44px; z-index: 10; }
+.css-ei5y6g-DivShareLayoutTopHeader::after { content: ""; position: absolute; bottom: 0px; left: 0px; right: 0px; background: rgba(22, 24, 35, 0.2); height: 1px; transform: scaleY(0.5); display: block; }
+@media screen and (min-width: 1920px) {
+  .css-ei5y6g-DivShareLayoutTopHeader { height: 96px; }
+  .css-ei5y6g-DivShareLayoutTopHeader::after { display: none; }
+}
+.css-1awfks4-H1TopHeaderCenter { flex-shrink: 0; max-width: calc(-110px + 100vw); font-size: 18px; font-weight: 700; text-align: center; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+@media screen and (min-width: 1920px) {
+  .css-1awfks4-H1TopHeaderCenter { font-size: 32px; line-height: 48px; }
+}
+@media screen and (min-width: 1920px) and (min-aspect-ratio: 8 / 3) {
+  .css-1qjmg9h-DivContainer { right: 0px; position: absolute; width: calc(-784px + 100vw); margin-top: 96px; }
+}
+.css-1q6maox-DivShareLayoutMain { display: flex; flex: 1 1 auto; flex-direction: column; -webkit-box-pack: start; justify-content: flex-start; align-items: flex-start; }
+.css-i8870x-DivVideoFeedTab { position: sticky; top: 42px; display: flex; flex-direction: row; -webkit-box-align: center; align-items: center; justify-content: stretch; width: 100%; height: 44px; z-index: 2; transform: translateZ(0px); background: rgb(255, 255, 255); }
+.css-i8870x-DivVideoFeedTab::after { position: absolute; bottom: 0px; left: 0px; content: ""; width: 100%; height: 1px; background-color: rgba(22, 24, 35, 0.2); transform: scaleY(0.5); }
+.css-i8870x-DivVideoFeedTab::before { position: absolute; top: 0px; left: 0px; content: ""; width: 100%; height: 1px; background-color: rgba(22, 24, 35, 0.2); transform: scaleY(0.5); }
+@media screen and (min-width: 1920px) {
+  .css-i8870x-DivVideoFeedTab { height: 56px; }
+  .css-i8870x-DivVideoFeedTab::before { display: none; }
+}
+.css-ftkav6-PTab { font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif; font-weight: 600; font-size: 18px; line-height: 25px; position: relative; display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; flex: 1 1 0%; height: 44px; text-align: center; color: rgb(18, 18, 18); }
+@media screen and (min-width: 1920px) {
+  .css-ftkav6-PTab > svg { width: 48px !important; height: 48px !important; }
+}
+.css-1z0sie9-PTab { font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif; font-weight: 600; font-size: 18px; line-height: 25px; position: relative; display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; flex: 1 1 0%; height: 44px; text-align: center; color: rgba(18, 18, 18, 0.5); }
+@media screen and (min-width: 1920px) {
+  .css-1z0sie9-PTab > svg { width: 48px !important; height: 48px !important; }
+}
+.css-1byb2re-DivBottomLine { left: calc(25% - 24px); position: absolute; width: 48px; height: 2px; background: rgb(22, 24, 35); bottom: 0px; transition: transform 0.3s; }
+.css-1axxgxg-DivVideoFeedTab-StyledNestedTabContainer-StyledFakeNestedTabContainer { display: flex; flex-direction: row; -webkit-box-align: center; align-items: center; justify-content: stretch; width: 100%; height: 44px; z-index: 2; transform: translateZ(0px); background: rgb(255, 255, 255); padding: 0px 8px; overflow-x: auto; position: fixed; top: 44px; left: 0px; }
+.css-1axxgxg-DivVideoFeedTab-StyledNestedTabContainer-StyledFakeNestedTabContainer::after { position: absolute; bottom: 0px; left: 0px; content: ""; width: 100%; height: 1px; background-color: rgba(22, 24, 35, 0.2); transform: scaleY(0.5); }
+.css-1axxgxg-DivVideoFeedTab-StyledNestedTabContainer-StyledFakeNestedTabContainer::before { position: absolute; top: 0px; left: 0px; content: ""; width: 100%; height: 1px; background-color: rgba(22, 24, 35, 0.2); transform: scaleY(0.5); }
+@media screen and (min-width: 1920px) {
+  .css-1axxgxg-DivVideoFeedTab-StyledNestedTabContainer-StyledFakeNestedTabContainer { height: 56px; }
+  .css-1axxgxg-DivVideoFeedTab-StyledNestedTabContainer-StyledFakeNestedTabContainer::before { display: none; }
+}
+.css-1axxgxg-DivVideoFeedTab-StyledNestedTabContainer-StyledFakeNestedTabContainer::-webkit-scrollbar { display: none; width: 0px !important; height: 0px !important; }
+.css-1axxgxg-DivVideoFeedTab-StyledNestedTabContainer-StyledFakeNestedTabContainer::before { display: none; }
+.css-1axxgxg-DivVideoFeedTab-StyledNestedTabContainer-StyledFakeNestedTabContainer::after { display: none; }
+@media screen and (min-width: 1920px) {
+  .css-1axxgxg-DivVideoFeedTab-StyledNestedTabContainer-StyledFakeNestedTabContainer { top: 96px; }
+}
+@media screen and (min-width: 1920px) and (min-aspect-ratio: 8 / 3) {
+  .css-1axxgxg-DivVideoFeedTab-StyledNestedTabContainer-StyledFakeNestedTabContainer { left: 784px; width: 1136px; }
+}
+.css-1l20dji-StyledSwiper.activated .swiper-slide { max-height: 0px; }
+.css-1l20dji-StyledSwiper.activated .swiper-slide.swiper-slide-active { max-height: none; }
+@media screen and (min-width: 1920px) and (min-aspect-ratio: 8 / 3) {
+  .css-1l20dji-StyledSwiper.swiper { padding-bottom: 50px; width: calc(-784px + 100vw) !important; }
+}
+.css-1ee5ce4-DivErrorContainer { flex: 1 1 auto; width: 100%; display: flex; flex-direction: column; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; text-align: center; padding: 87px 32px; box-sizing: border-box; }
+.css-h59y2h-PTitle { font-size: 17px; line-height: 20px; font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif; font-weight: 600; color: rgb(22, 24, 35); }
+@media screen and (min-width: 1920px) {
+  .css-h59y2h-PTitle { font-size: 28px; line-height: 24px; }
+}
+.css-1tle30k-PDesc { font-size: 14px; line-height: 17px; font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif; font-weight: 400; color: rgba(22, 24, 35, 0.75); margin-top: 16px; }
+@media screen and (min-width: 1920px) {
+  .css-1tle30k-PDesc { font-size: 24px; line-height: 20px; }
+}
+.css-12l8cv7-DivFlex0 { position: relative; flex: 0 0 auto; }
+.css-172wa3q-DivFooterWrapper { position: fixed; bottom: 0px; left: 0px; width: 100%; display: flex; flex-direction: column; z-index: 11; }
+@media screen and (min-width: 1920px) and (min-aspect-ratio: 8 / 3) {
+  .css-1aobar6-DivContainer { width: 784px; position: fixed; }
+}
+.css-1sqj4oi-DivAvatarWrapper { width: 96px; height: 96px; }
+.css-1sqj4oi-DivAvatarWrapper > span { width: 100% !important; height: 100% !important; }
+@media screen and (min-width: 1920px) {
+  .css-1sqj4oi-DivAvatarWrapper { width: 112px; height: 112px; }
+}
+.css-tuohvl-SpanAvatarContainer { display: inline-block; box-sizing: border-box; margin: 0px; padding: 0px; font-feature-settings: "tnum"; position: relative; overflow: hidden; color: rgb(255, 255, 255); white-space: nowrap; text-align: center; vertical-align: middle; line-height: 32px; border-radius: 50%; background-color: rgba(136, 136, 136, 0.5); }
+.css-1zpj2q-ImgAvatar { width: 100%; height: 100%; object-fit: cover; }
+.css-1h6qlo6-H3CountInfos { display: flex; -webkit-box-align: center; align-items: center; padding: 0px 46px; width: 100%; }
+@media screen and (min-width: 1920px) {
+  .css-1h6qlo6-H3CountInfos { width: 730px; }
+}
+.css-1qejpkf-DivFollowWrapper { margin-top: 16px; display: flex; -webkit-box-pack: center; justify-content: center; width: 100%; }
+.css-1qswsr9-DivFollowBtnWrapper { font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif; font-weight: 600; font-size: 18px; line-height: 25px; width: 164px; height: 44px; border-radius: 8px; }
+@media screen and (min-width: 1920px) {
+  .css-1qswsr9-DivFollowBtnWrapper { width: 480px; height: 56px; font-size: 28px; line-height: 44px; border-radius: 4px; }
+}
+.css-4it69p-DivShareFollowContainer { font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif; font-weight: 600; font-size: 18px; line-height: 25px; position: relative; min-width: 164px; padding: 0px; margin: 0px; }
+.css-dpge38-DivFollowButtonWrapper { position: absolute; min-width: 208px; line-height: 22px; opacity: 1; }
+.css-o3czni-Button-StyledFollowButton { border-radius: 4px; border: medium; color: rgb(255, 255, 255); background-color: rgb(254, 44, 85); min-height: 36px; font-size: 18px; font-weight: 600; font-family: TikTokDisplayFont, PingFangSC, sans-serif; display: flex; position: relative; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; padding: 6px 8px; -webkit-user-select: none; cursor: pointer; box-sizing: border-box; line-height: 22px; min-width: unset; width: 164px; height: 44px; margin: 0px; }
+.css-o3czni-Button-StyledFollowButton:hover { background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), rgb(254, 44, 85); }
+.css-o3czni-Button-StyledFollowButton:active { background: linear-gradient(0deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)), rgb(254, 44, 85); }
+.css-o3czni-Button-StyledFollowButton:disabled { border: medium; color: rgba(22, 24, 35, 0.34); background-color: rgba(22, 24, 35, 0.06); pointer-events: none; }
+.css-o3czni-Button-StyledFollowButton:focus { outline: currentcolor; }
+.css-o3czni-Button-StyledFollowButton:focus-visible { outline: rgb(24, 27, 105) solid 2px; outline-offset: 1px; }
+.css-19ytzrk-DivFollowingContainer { display: flex; position: absolute; left: 0px; top: 0px; opacity: 0; z-index: -1; width: inherit; height: inherit; border-radius: inherit; }
+.css-1u1t0pr-Button-StyledFollowingButton { border-style: solid; border-radius: 4px; color: rgb(22, 24, 35); border-color: rgba(22, 24, 35, 0.12); min-height: 36px; font-size: 18px; font-weight: 600; font-family: TikTokDisplayFont, PingFangSC, sans-serif; display: flex; position: relative; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; padding: 6px 8px; -webkit-user-select: none; cursor: pointer; box-sizing: border-box; line-height: 22px; min-width: unset; width: 164px; height: 44px; margin: 0px 8px 0px 0px; border-width: 0px; background: rgba(22, 24, 35, 0.06); }
+.css-1u1t0pr-Button-StyledFollowingButton:hover { border-color: rgb(208, 209, 211); background-color: rgb(248, 248, 248); }
+.css-1u1t0pr-Button-StyledFollowingButton:active { border-color: rgb(208, 209, 211); background-color: rgb(241, 241, 242); }
+.css-1u1t0pr-Button-StyledFollowingButton:disabled { border-color: rgb(227, 227, 229); background-color: rgb(255, 255, 255); color: rgba(22, 24, 35, 0.34); }
+.css-1u1t0pr-Button-StyledFollowingButton:focus { outline: currentcolor; }
+.css-1u1t0pr-Button-StyledFollowingButton:focus-visible { outline: rgb(255, 76, 58) solid 2px; outline-offset: 1px; }
+.css-1ijmuqg-ButtonMoreArea { outline: currentcolor; border: 0px; border-radius: 8px; cursor: pointer; background-color: rgba(22, 24, 35, 0.06); margin-inline-start: 4px; display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; width: 44px; height: 44px; box-sizing: border-box; }
+@media screen and (min-width: 1920px) {
+  .css-1ijmuqg-ButtonMoreArea { width: 56px; height: 56px; margin-inline-start: 8px; }
+}
+.css-1urwvx4-H2ShareDesc { color: rgb(22, 24, 35); font-family: TikTokFont; font-weight: 400; white-space: pre-line; word-break: break-word; margin-top: 16px; text-align: center; padding: 0px 40px; font-size: 14px; line-height: 17px; }
+@media screen and (min-width: 1920px) {
+  .css-1urwvx4-H2ShareDesc { font-size: 28px; line-height: 44px; }
+}
+.css-191ha3o-DivCtaTrigger { display: none; }
+.css-a3te33-AVideoContainer { display: block; width: 100%; height: 100%; object-fit: cover; background-repeat: no-repeat; background-position: center; background-size: cover; }
+.css-41hm0z { width: 100%; height: 100%; position: relative; }
+.css-41hm0z img { object-fit: cover; }
+.css-1oung84-DivCardInfoWrapper { display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: justify; justify-content: space-between; position: absolute; bottom: 0px; right: 0px; left: 0px; color: rgb(255, 255, 255); font-size: 13px; pointer-events: none; padding: 40px 7px 7px; background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 97%); }
+.css-ghzzat-DivPlayInfoWrapper { display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: start; justify-content: flex-start; }
+.css-1qjcx3m-DivPlayIcon { width: 16px; height: 16px; }
+@media screen and (min-width: 1920px) {
+  .css-1qjcx3m-DivPlayIcon { width: 24px; height: 24px; }
+}
+.css-1vn2f0c-StyledPlayIcon { margin-inline-end: 2px; }
+.css-cralc2-SpanPlayCount { font-weight: 600; font-size: 13px; line-height: 17px; -webkit-user-select: none; }
+@media screen and (min-width: 1920px) {
+  .css-cralc2-SpanPlayCount { line-height: 24px; font-size: 24px; }
+}
+.css-1facwl9-DivCoverPlayBtn { position: absolute; left: 50%; top: 50%; width: 24px; height: 24px; transform: translate(-50%, -50%); }
+.css-1xwoghb-DivHeaderContainer { position: absolute; top: 0px; width: 100%; display: flex; -webkit-box-pack: justify; justify-content: space-between; -webkit-box-align: center; align-items: center; padding: 0.5rem; direction: ltr; z-index: 1; }
+.css-19bex7m-DivLeftSection { display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: start; justify-content: flex-start; direction: ltr; }
+.css-3on00d-DivBadge { display: inline-flex; padding: 0.0625rem 0.3125rem; -webkit-box-align: center; align-items: center; row-gap: 0.625rem; column-gap: 0.625rem; border-radius: 4px; background: rgb(254, 44, 85); color: rgb(255, 255, 255); text-align: center; font-size: 0.75rem; font-style: normal; font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif; font-weight: 500; line-height: 130%; letter-spacing: 0.01006rem; }
+.css-1kx77vb-DivMuteIconContainer { width: 40px; height: 24px; display: flex; -webkit-box-pack: end; justify-content: flex-end; position: absolute; bottom: 7px; cursor: pointer; right: 10px; }
+.css-m313ex-StyledLink-StyledLinkWrapper-StyledAuthorLink:focus-visible { outline: rgb(255, 76, 58) solid 2px; }
+.css-1kyfubn-StyledLink-StyledLinkWrapper-StyledMusicLink:focus-visible { outline: rgb(255, 76, 58) solid 2px; }
+.css-22xkqc-StyledLink:focus-visible { outline: rgb(255, 76, 58) solid 2px; }
+.css-1bow3np-StyledLink-StyledCommonLink:focus-visible { outline: rgb(255, 76, 58) solid 2px; }
+.css-1a1wc7v-StyledLink-StyledLink:focus-visible { outline: rgb(255, 76, 58) solid 2px; }
+@font-face { font-family: tiktok-display-bold; src: url("fonts/TikTokDisplayFont-Bold.woff2?_default_font=1&v=2"); font-display: swap; }
+@font-face { font-family: tiktok-display-regular; src: url("fonts/TikTokDisplayFont-Regular.woff2?_default_font=1&v=2"); font-display: swap; }
+@font-face { font-family: tiktok-display-medium; src: url("fonts/TikTokDisplayFont-Semibold.woff2?_default_font=1&v=2"); font-display: swap; }
+@font-face { font-family: tiktok-text-bold; src: url("fonts/TikTokFont-Bold.woff2?_default_font=1&v=2"); font-display: swap; }
+@font-face { font-family: tiktok-text-regular; src: url("fonts/TikTokFont-Regular.woff2?_default_font=1&v=2"); font-display: swap; }
+@font-face { font-family: tiktok-text-medium; src: url("fonts/TikTokFont-Semibold.woff2?_default_font=1&v=2"); font-display: swap; }
+
+:root,[data-theme=light]{--AssistColorActiveGreen:#1dd765;--AssistColorActiveGreenText:#00a545;--AssistColorAIBlue:#00b5ee;--AssistColorAzure:#2b5db9;--AssistColorBlue:#4b5dc2;--AssistColorBrown:#9b6016;--AssistColorCelulean:#408d9f;--AssistColorGreen:#3b824a;--AssistColorOrange:#fc9c0c;--AssistColorPurple:#5e39d0;--AssistColorRed:#e54a82;--AssistColorResso:#ff005c;--AssistColorYellow:#face15;--AssistUIShapeBlue:rgba(0,162,201,.12);--AssistUITextBlue:#004d58;--BGBase:#f5f5f5;--BGBrand:rgba(254,44,85,.06);--BGConstOverlayDarkGray34:rgba(37,37,37,.34);--BGCreation:#121212;--BGCreation2:#1b1b1b;--BGCreation3:#f8f8f8;--BGCreation5:rgba(0,0,0,.15);--BGHover:rgba(22,24,35,.1);--BGInput:rgba(22,24,35,.06);--BGInput2:rgba(22,24,35,.06);--BGInverse3:rgba(37,37,37,.6);--BGLevitation:#fff;--BGPlaceholderDefault:rgba(22,24,35,.06);--BGPlaceholderOpaque:#f1f1f1;--BGPrimary:#fff;--BGPrimary2:#fff;--BGQuaternary:#fff;--BGQuinary:#fff;--BGReverse:#fff;--BGReverse2:hsla(0,0%,100%,.9);--BGSecondary:#fff;--BGSecondary2:#fff;--BGTertiary:#fff;--BGTertiary2:#fff;--BGView:rgba(22,24,35,.03);--BGView2:rgba(22,24,35,.03);--ConstBGBrand:rgba(254,44,85,.5);--ConstBGContainer:hsla(0,0%,100%,.12);--ConstBGContainer2:hsla(0,0%,100%,.08);--ConstBGContainer3:hsla(0,0%,100%,.04);--ConstBGInverse:#000;--ConstBGInverse1:rgba(56,56,56,.95);--ConstBGInverse2:rgba(0,0,0,.6);--ConstBGInverse3:rgba(37,37,37,.6);--ConstBGInverse4:rgba(84,84,84,.5);--ConstBGInverse5:rgba(0,0,0,.2);--ConstBGInverseOpaque:#2e2e2e;--ConstBGMat:hsla(0,0%,100%,.34);--ConstBGMat2:hsla(0,0%,100%,.2);--ConstBGOverlayDarkGray34:rgba(37,37,37,.34);--ConstBGPlaceholderOpaque:#f1f1f1;--ConstBGSecondary:rgba(32,213,236,.05);--ConstInteractStatePressedMaskLightInverse:rgba(22,24,35,.1);--ConstInteractStatePressedMaskStrongInverse:rgba(22,24,35,.3);--ConstLineInverse:hsla(0,0%,100%,.2);--ConstLineInverse2:hsla(0,0%,100%,.12);--ConstSDSecondary:rgba(0,0,0,.5);--ConstTextInverse:#fff;--ConstTextInverse2:hsla(0,0%,100%,.9);--ConstTextInverse3:hsla(0,0%,100%,.75);--ConstTextInverse4:hsla(0,0%,100%,.5);--ConstTextInverse5:hsla(0,0%,100%,.34);--ConstTextPrimary:#161823;--InteractStatePressedMaskLight:rgba(22,24,35,.1);--LineDarker:rgba(22,24,35,.03);--LineInput:rgba(22,24,35,.5);--LineInverse:rgba(22,24,35,.2);--LinePrimary:rgba(22,24,35,.2);--LinePrimary2:rgba(22,24,35,.2);--LineReverse2:rgba(22,24,35,.12);--LineReverse3:rgba(22,24,35,.12);--LineSecondary:rgba(22,24,35,.12);--LineSecondary2:rgba(22,24,35,.12);--LineSecondary3:rgba(22,24,35,.12);--Link:#fe2c55;--Link2:#fe2c55;--Link3:#fe2c55;--LiveColorEnd:#ed3495;--LiveColorStart:#ff1764;--Negative:#ff4c3a;--Positive:#0be09b;--Positive2:#4fab7e;--Primary:#fe2c55;--Primary2:#161823;--SDPrimary:rgba(0,0,0,.8);--SDSecondary:rgba(0,0,0,.5);--SDTertiary:rgba(0,0,0,.2);--Secondary:#20d5ec;--Secondary2:#10a2c5;--ShadowPrimary:rgba(0,0,0,.12);--ShadowSecondary:rgba(0,0,0,.06);--StoryColorEnd:#1ae3c6;--StoryColorMiddle:#20d5ec;--StoryColorStart:#15c0f9;--TagBrownBG:#f5f0f0;--TagBrownText:#805959;--TagGreenBG:#eff5f2;--TagGreenText:#59806c;--TagPurpleBG:#f6f0f5;--TagPurpleText:#805979;--TextPrimary:#000;--TextQuaternary:rgba(0,0,0,.32);--TextReverse:#000;--TextReverse2:rgba(0,0,0,.72);--TextReverse3:rgba(0,0,0,.46);--TextReverse4:rgba(0,0,0,.32);--TextSecondary:rgba(0,0,0,.72);--TextTertiary:rgba(0,0,0,.56);--TextTertiary2:rgba(0,0,0,.46);--TextTertiaryAlt:rgba(0,0,0,.56);--ToastDefault:rgba(84,84,84,.92);--ToastNegative:rgba(255,76,58,.92);--BrandAi1:#8470ff;--BrandColor:#fff;--BrandOscarGold:#ba9e5e;--BrandTako1:#00b5ee;--BrandTako2:#000;--BrandTikTokPlus1:#ffc804;--BrandTikTokPlus2:#e5a500;--BrandTikTokBackground:#fff;--BrandTikTokBackgroundElement:#000;--BrandTikTokBlack:#000;--BrandTikTokRazzmatazz:#fe2c55;--BrandTikTokSplash:#25f4ee;--BrandTikTokSpotlight:#000;--BrandTikTokSubjectInSpotlight:#fff;--BrandTikTokWhite:#fff;--BrandTikTokPhotos1:#64facd;--BrandTikTokPhotos2:#00aa96;--BrandTokopedia1:#00aa5b;--CreationAdjustBackground:#ffb2d7;--CreationAdjustHSLBlue:#3298f6;--CreationAdjustHSLCyan:#35e1e1;--CreationAdjustHSLFuchsia:#c92eff;--CreationAdjustHSLGreen:#78c25e;--CreationAdjustHSLIndigo:#5856d6;--CreationAdjustHSLOrange:#ff933d;--CreationAdjustHSLRed:#ff5252;--CreationAdjustHSLYellow:#f2cd46;--CreationAdjustLabel:#8e1f54;--CreationFilterBackground:#ffbfbf;--CreationFilterLabel:#8b2329;--CreationFirstCommentGradientRed1:#ff3b86;--CreationFirstCommentGradientRed2:#ff955a;--CreationFlashLightCold:#d3eaff;--CreationFlashLightWarm:#fff2cd;--CreationGlanceWatermark:#fff85a;--CreationPillOverlay:hsla(0,0%,90%,.32);--ECBlackText1:#000;--ECBlackText2:rgba(0,0,0,.65);--ECBlackText3:rgba(0,0,0,.48);--ECCyanBanner:#f0fbfb;--ECCyanBorder:rgba(8,146,146,.14);--ECCyanMain:#00b8b9;--ECCyanTag:rgba(0,184,185,.12);--ECCyanText:#089292;--ECCyanTextOnTag:#089292;--ECGoldMain:#fdca5e;--ECGoldTag:rgba(253,202,94,.2);--ECGoldText:#a46c00;--ECGoldTextOnTag:#a46c00;--ECNeutralTag:rgba(0,0,0,.05);--ECNeutralText:#6b6b6b;--ECNeutralTextOnTag:#6b6b6b;--ECPrimaryBanner:#fff2f5;--ECPrimaryBorder:rgba(225,5,67,.1);--ECPrimaryTag:rgba(254,44,85,.12);--ECPrimaryTextOnTag:#e10543;--ECWhiteText1:#fff;--ECWhiteText2:hsla(0,0%,100%,.88);--ECWhiteText3:hsla(0,0%,100%,.6);--EffectPlatformCapability3D:#9fdaf8;--EffectPlatformCapabilityAudio:#a3a3ff;--EffectPlatformCapabilityFace:#e5b2f1;--EffectPlatformCapabilityOther:#fff;--EffectPlatformCapabilityRender:#fce08b;--EffectPlatformCapabilityScreen:#45cca7;--EffectPlatformCapabilityTracker:#f28d97;--FeedAnchorBg:rgba(37,37,37,.34);--FeedComponentsTextBackdrop:rgba(77,77,77,.5);--FeedTopTabTextShadowA30:rgba(0,0,0,.3);--FeedTopTabTextShadowA40:rgba(0,0,0,.4);--FeedTopTabTextShadowA50:rgba(0,0,0,.5);--FeedTopTabTextShadowA66:rgba(0,0,0,.66);--FeedTopTabTextShadowA83:rgba(0,0,0,.83);--InboxFilterHighlight:rgba(21,192,249,.16);--InboxFilterTextOnHighlight:#0d829e;--LIVEBrand1:#ff1764;--LIVEBrand2:#ed3495;--LocalServicePOI:#13bd90;--LocalServicePOIBackground:rgba(19,189,144,.12);--MiscOnlineShape:#1dd765;--MiscOnlineShape4:rgba(29,215,101,.16);--MiscOnlineText:#00a545;--MiscRatingStarSelectedFill:#face15;--MiscVerifiedBadge1:#20d5ec;--MiscVerifiedBadge2:#fff;--ProfileIconBackgroundDarkGray:hsla(0,0%,49%,.9);--SocialAvatarBrand1:#7059ff;--SocialAvatarProfile011:#ded2fa;--SocialAvatarProfile012:#1a1312;--SocialAvatarProfile021:#625fff;--SocialAvatarProfile022:#fcdd49;--SocialAvatarProfile031:#726d90;--SocialAvatarProfile032:#efe5cc;--SocialAvatarProfile041:#fbc436;--SocialAvatarProfile042:#3d3d3d;--SocialAvatarProfile051:#f86363;--SocialAvatarProfile052:#3d4b94;--SocialAvatarProfile061:#eae8e0;--SocialAvatarProfile062:#737f96;--SocialChatGradientBlue1:#00b8d3;--SocialChatGradientBlue2:#00add2;--SocialChatGradientBlue3:#1787d9;--SocialSnail1:#dd0f88;--SocialStoryGradientGreen1:#0094ff;--SocialStoryGradientGreen2:#20d5ec;--SocialStoryGradientGreen3:#00ffa3;--SocialStoryGradientPurple1:#5f7cff;--SocialStoryGradientPurple2:#7366fe;--SocialStoryGradientPurple3:#835af7;--SocialStoryShapePurple:rgba(124,92,253,.66);--SocialTextStreak:#ff6613;--UIImageOverlayBlack:#000;--UIImageOverlayBlackA15:rgba(0,0,0,.15);--UIImageOverlayBlackA25:rgba(0,0,0,.25);--UIImageOverlayBlackA50:rgba(0,0,0,.5);--UIImageOverlayBlackA80:rgba(0,0,0,.8);--UIImageOverlayDarkGrayA30:rgba(51,51,51,.3);--UIImageOverlayDarkGrayA60:rgba(51,51,51,.6);--UIImageOverlayDarkGrayA85:rgba(51,51,51,.85);--UIImageOverlayWhite:#fff;--UIImageOverlayWhiteA20:hsla(0,0%,100%,.2);--UIImageOverlayWhiteA40:hsla(0,0%,100%,.4);--UIImageOverlayWhiteA75:hsla(0,0%,100%,.75);--UIPageFlat1:#fff;--UIPageFlat2:#f8f8f8;--UIPageFlat3:#fff;--UIPageGrouped1:#f5f5f5;--UIPageGrouped2:#fff;--UIPageGrouped3:#f8f8f8;--UIShapeDanger:#ff4c3a;--UIShapeDanger2:rgba(255,76,58,.32);--UIShapeDanger3:rgba(255,76,58,.21);--UIShapeDanger4:rgba(255,76,58,.09);--UIShapeInfo:#0075dc;--UIShapeInfo2:rgba(0,117,220,.3);--UIShapeInfo3:rgba(0,117,220,.19);--UIShapeInfo4:rgba(0,117,220,.1);--UIShapeNeutral:#000;--UIShapeNeutral2:rgba(0,0,0,.17);--UIShapeNeutral3:rgba(0,0,0,.12);--UIShapeNeutral4:rgba(0,0,0,.05);--UIShapePrimary:#fe2c55;--UIShapePrimary2:rgba(254,44,85,.31);--UIShapePrimary3:rgba(254,44,85,.18);--UIShapePrimary4:rgba(254,44,85,.07);--UIShapeSecondary:#20d5ec;--UIShapeSecondary2:rgba(32,213,236,.5);--UIShapeSecondary3:rgba(32,213,236,.32);--UIShapeSecondary4:rgba(32,213,236,.13);--UIShapeSecondary5:rgba(32,213,236,.05);--UIShapeSecondaryMuted:#00a2c9;--UIShapeSecondaryMuted2:rgba(0,162,201,.33);--UIShapeSecondaryMuted3:rgba(0,162,201,.24);--UIShapeSecondaryMuted4:rgba(0,162,201,.12);--UIShapeSecondaryMuted5:rgba(0,162,201,.05);--UIShapeSuccess:#0be09b;--UIShapeSuccess2:rgba(11,224,155,.48);--UIShapeSuccess3:rgba(11,224,155,.28);--UIShapeSuccess4:rgba(11,224,155,.12);--UIShapeText1OnDanger:#fff;--UIShapeText1OnInfo:#e7f4ff;--UIShapeText1OnNeutral:#fff;--UIShapeText1OnPrimary:#fff;--UIShapeText1OnSecondary:#00343c;--UIShapeText1OnSecondaryMuted:#fff;--UIShapeText1OnSuccess:#003628;--UIShapeText1OnWarning:#2d1200;--UIShapeText2OnDanger:#ffcbbe;--UIShapeText2OnInfo:#8ecaff;--UIShapeText2OnNeutral:hsla(0,0%,100%,.6);--UIShapeText2OnPrimary:#ffd9da;--UIShapeText2OnSecondary:#006674;--UIShapeText2OnSecondaryMuted:#b1f0ff;--UIShapeText2OnSuccess:#008568;--UIShapeText2OnWarning:#904a00;--UIShapeTextOnSecondary2Or3:#01434b;--UIShapeTextOnSecondary4Or5:#026d7a;--UIShapeTextOnSecondaryMuted2Or3:#0a4151;--UIShapeTextOnSecondaryMuted4Or5:#176a83;--UIShapeWarning:#ff9500;--UIShapeWarning2:rgba(255,149,0,.48);--UIShapeWarning3:rgba(255,149,0,.28);--UIShapeWarning4:rgba(255,149,0,.12);--UISheetBackdrop1:rgba(0,0,0,.5);--UISheetBackdrop2:rgba(0,0,0,.2);--UISheetFlat1:#fff;--UISheetFlat2:#f8f8f8;--UISheetFlat3:#fff;--UISheetGrouped1:#f5f5f5;--UISheetGrouped2:#fff;--UISheetGrouped3:#f8f8f8;--UIText1:#000;--UIText1Display:#202020;--UIText2:rgba(0,0,0,.65);--UIText3:rgba(0,0,0,.48);--UITextDanger:#da3123;--UITextDangerDisplay:#ff4c3a;--UITextInfo:#2b5db9;--UITextInfoDisplay:#0075db;--UITextPlaceholder:rgba(0,0,0,.34);--UITextPrimary:#e10543;--UITextPrimaryDisplay:#fe2c55;--UITextSecondary:#009eb2;--UITextSecondaryDisplay:#00bad0;--UITextSuccess:#008568;--UITextSuccessDisplay:#00c39b;--UITextWarning:#b36000;--UITextWarningDisplay:#ff9500}[data-theme=dark]{--AssistColorActiveGreenText:#22c660;--AssistColorAzure:#8fbee9;--AssistColorBrown:#c7893d;--AssistColorCelulean:#7ebbc9;--AssistUIShapeBlue:rgba(0,162,201,.27);--AssistUITextBlue:#83f7ff;--BGBase:#000;--BGBrand:rgba(254,44,85,.24);--BGCreation3:#121212;--BGHover:hsla(0,0%,100%,.1);--BGInput:hsla(0,0%,100%,.12);--BGInput2:hsla(0,0%,100%,.08);--BGLevitation:#191919;--BGPlaceholderDefault:hsla(0,0%,100%,.08);--BGPlaceholderOpaque:#252525;--BGPrimary:#121212;--BGPrimary2:hsla(0,0%,100%,.04);--BGQuaternary:#383838;--BGQuinary:#4b4b4b;--BGReverse:#121212;--BGReverse2:hsla(0,0%,7%,.9);--BGSecondary:#252525;--BGSecondary2:hsla(0,0%,100%,.08);--BGTertiary:#2e2e2e;--BGTertiary2:hsla(0,0%,100%,.12);--BGView:hsla(0,0%,100%,.04);--BGView2:hsla(0,0%,100%,0);--InteractStatePressedMaskLight:hsla(0,0%,100%,.1);--LineDarker:rgba(0,0,0,.35);--LineInput:hsla(0,0%,100%,.5);--LineInverse:hsla(0,0%,100%,0);--LinePrimary:hsla(0,0%,100%,0);--LinePrimary2:hsla(0,0%,100%,.2);--LineReverse2:hsla(0,0%,100%,.12);--LineReverse3:hsla(0,0%,100%,0);--LineSecondary:hsla(0,0%,100%,.12);--LineSecondary2:hsla(0,0%,100%,0);--LineSecondary3:hsla(0,0%,100%,.5);--Link:#ff3b5c;--Link2:#ff3b5c;--Link3:#ff3b5c;--Primary:#ff3b5c;--Primary2:hsla(0,0%,100%,.9);--SDSecondary:rgba(0,0,0,.68);--SDTertiary:rgba(0,0,0,.5);--TagBrownBG:#805959;--TagBrownText:#ffb3b3;--TagGreenBG:#598066;--TagGreenText:#b2ffd9;--TagPurpleBG:#80596c;--TagPurpleText:#ffb2d9;--TextPrimary:hsla(0,0%,100%,.9);--TextQuaternary:hsla(0,0%,100%,.34);--TextReverse:hsla(0,0%,100%,.9);--TextReverse2:hsla(0,0%,100%,.75);--TextReverse3:hsla(0,0%,100%,.5);--TextReverse4:hsla(0,0%,100%,.34);--TextSecondary:hsla(0,0%,100%,.75);--TextTertiary:hsla(0,0%,100%,.5);--TextTertiary2:hsla(0,0%,100%,.75);--TextTertiaryAlt:hsla(0,0%,100%,.6);--BrandTako2:#fff;--BrandTikTokBackground:#000;--BrandTikTokBackgroundElement:#fff;--BrandTikTokSpotlight:#fff;--BrandTikTokSubjectInSpotlight:#000;--ECCyanBanner:#1a3031;--ECCyanBorder:rgba(168,231,231,.14);--ECCyanTag:rgba(0,184,185,.34);--ECCyanText:#00b8b9;--ECCyanTextOnTag:#a8e7e7;--ECGoldTag:rgba(253,202,94,.32);--ECGoldText:#fdca5e;--ECGoldTextOnTag:#fad8a7;--ECNeutralTag:hsla(0,0%,100%,.2);--ECNeutralText:#c1c1c1;--ECNeutralTextOnTag:#ddd;--ECPrimaryBanner:#392125;--ECPrimaryBorder:rgba(255,183,197,.12);--ECPrimaryTag:rgba(255,59,92,.34);--ECPrimaryTextOnTag:#ffcdce;--InboxFilterHighlight:rgba(21,192,249,.24);--InboxFilterTextOnHighlight:#11bad4;--LocalServicePOIBackground:rgba(19,189,144,.2);--MiscOnlineShape4:rgba(29,215,101,.25);--MiscOnlineText:#22c660;--SocialTextStreak:#ff6612;--UIPageFlat1:#000;--UIPageFlat2:#1e1e1e;--UIPageFlat3:#2c2c2c;--UIPageGrouped1:#000;--UIPageGrouped2:#1e1e1e;--UIPageGrouped3:#2c2c2c;--UIShapeDanger2:rgba(255,76,58,.68);--UIShapeDanger3:rgba(255,76,58,.5);--UIShapeDanger4:rgba(255,76,58,.29);--UIShapeInfo2:rgba(32,151,255,.6);--UIShapeInfo3:rgba(32,151,255,.47);--UIShapeInfo4:rgba(32,151,255,.29);--UIShapeNeutral:#fafafa;--UIShapeNeutral2:hsla(0,0%,100%,.32);--UIShapeNeutral3:hsla(0,0%,100%,.19);--UIShapeNeutral4:hsla(0,0%,100%,.13);--UIShapePrimary2:rgba(254,44,85,.6);--UIShapePrimary3:rgba(254,44,85,.43);--UIShapePrimary4:rgba(254,44,85,.27);--UIShapeSecondary4:rgba(32,213,236,.21);--UIShapeSecondary5:rgba(32,213,236,.13);--UIShapeSecondaryMuted2:rgba(0,162,201,.66);--UIShapeSecondaryMuted3:rgba(0,162,201,.46);--UIShapeSecondaryMuted4:rgba(0,162,201,.3);--UIShapeSecondaryMuted5:rgba(0,162,201,.13);--UIShapeSuccess2:rgba(11,224,155,.66);--UIShapeSuccess3:rgba(11,224,155,.46);--UIShapeSuccess4:rgba(11,224,155,.25);--UIShapeText1OnNeutral:#000;--UIShapeText2OnNeutral:rgba(0,0,0,.48);--UIShapeTextOnSecondary2Or3:#a0edfa;--UIShapeTextOnSecondary4Or5:#81ccd8;--UIShapeTextOnSecondaryMuted2Or3:#ade9ff;--UIShapeTextOnSecondaryMuted4Or5:#86c9e2;--UIShapeWarning2:rgba(255,149,0,.67);--UIShapeWarning3:rgba(255,149,0,.51);--UIShapeWarning4:rgba(255,149,0,.28);--UISheetBackdrop1:rgba(0,0,0,.7);--UISheetBackdrop2:rgba(0,0,0,.5);--UISheetFlat1:#1e1e1e;--UISheetFlat2:#2d2d2d;--UISheetFlat3:#3a3a3a;--UISheetGrouped1:#1e1e1e;--UISheetGrouped2:#2d2d2d;--UISheetGrouped3:#3a3a3a;--UIText1:#f6f6f6;--UIText1Display:#f0f0f0;--UIText2:hsla(0,0%,100%,.88);--UIText3:hsla(0,0%,100%,.6);--UITextDanger:#ff7660;--UITextDangerDisplay:#ff5b48;--UITextInfo:#60b3ff;--UITextInfoDisplay:#60b3ff;--UITextPlaceholder:hsla(0,0%,100%,.4);--UITextPrimary:#ff576f;--UITextPrimaryDisplay:#ff3b5c;--UITextSecondary:#20d5ec;--UITextSecondaryDisplay:#20d5ec;--UITextSuccess:#0be09b;--UITextSuccessDisplay:#0be09b;--UITextWarning:#ffb554}@font-face{font-display:fallback;font-family:TikTokFont;font-style:normal;font-weight:400;src:url(fonts/TikTokFont-Regular.woff2) format("woff2"),url(fonts/TikTokFont-Regular.woff) format("woff"),url(fonts/TikTokFont-Regular.otf) format("opentype")}@font-face{font-display:fallback;font-family:TikTokFont;font-style:normal;font-weight:500;src:url(fonts/TikTokFont-Semibold.woff2) format("woff2"),url(fonts/TikTokFont-Semibold.woff) format("woff"),url(fonts/TikTokFont-Semibold.otf) format("opentype")}@font-face{font-display:fallback;font-family:TikTokFont;font-style:normal;font-weight:700;src:url(fonts/TikTokFont-Bold.woff2) format("woff2"),url(fonts/TikTokFont-Bold.woff) format("woff"),url(fonts/TikTokFont-Bold.otf) format("opentype")}@font-face{font-display:fallback;font-family:TikTokDisplayFont;font-style:normal;font-weight:400;src:url(fonts/TikTokDisplayFont-Regular.woff2) format("woff2"),url(fonts/TikTokDisplayFont-Regular.woff) format("woff"),url(fonts/TikTokDisplayFont-Regular.otf) format("opentype")}@font-face{font-display:fallback;font-family:TikTokDisplayFont;font-style:normal;font-weight:500;src:url(fonts/TikTokDisplayFont-Semibold.woff2) format("woff2"),url(fonts/TikTokDisplayFont-Semibold.woff) format("woff"),url(fonts/TikTokDisplayFont-Semibold.otf) format("opentype")}@font-face{font-display:fallback;font-family:TikTokDisplayFont;font-style:normal;font-weight:700;src:url(fonts/TikTokDisplayFont-Bold.woff2) format("woff2"),url(fonts/TikTokDisplayFont-Bold.woff) format("woff"),url(fonts/TikTokDisplayFont-Bold.otf) format("opentype")}html{font-family:TikTokFont,system-ui,-apple-system,Roboto,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji}*{-webkit-user-select:none;user-select:none}html{-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-text-size-adjust:100%}a{background-color:transparent;color:inherit;text-decoration:none}button{border:0;font-family:inherit;margin:0}button{background-color:transparent;background-image:none;border:none}button:focus{outline:none}button{cursor:pointer}*,:after,:before{box-sizing:inherit}@media (prefers-color-scheme:dark){:root{--AssistColorActiveGreenText:#22c660;--AssistColorAzure:#8fbee9;--AssistColorBrown:#c7893d;--AssistColorCelulean:#7ebbc9;--AssistUIShapeBlue:rgba(0,162,201,.27);--AssistUITextBlue:#83f7ff;--BGBase:#000;--BGBrand:rgba(254,44,85,.24);--BGCreation3:#121212;--BGHover:hsla(0,0%,100%,.1);--BGInput:hsla(0,0%,100%,.12);--BGInput2:hsla(0,0%,100%,.08);--BGLevitation:#191919;--BGPlaceholderDefault:hsla(0,0%,100%,.08);--BGPlaceholderOpaque:#252525;--BGPrimary:#121212;--BGPrimary2:hsla(0,0%,100%,.04);--BGQuaternary:#383838;--BGQuinary:#4b4b4b;--BGReverse:#121212;--BGReverse2:hsla(0,0%,7%,.9);--BGSecondary:#252525;--BGSecondary2:hsla(0,0%,100%,.08);--BGTertiary:#2e2e2e;--BGTertiary2:hsla(0,0%,100%,.12);--BGView:hsla(0,0%,100%,.04);--BGView2:hsla(0,0%,100%,0);--InteractStatePressedMaskLight:hsla(0,0%,100%,.1);--LineDarker:rgba(0,0,0,.35);--LineInput:hsla(0,0%,100%,.5);--LineInverse:hsla(0,0%,100%,0);--LinePrimary:hsla(0,0%,100%,0);--LinePrimary2:hsla(0,0%,100%,.2);--LineReverse2:hsla(0,0%,100%,.12);--LineReverse3:hsla(0,0%,100%,0);--LineSecondary:hsla(0,0%,100%,.12);--LineSecondary2:hsla(0,0%,100%,0);--LineSecondary3:hsla(0,0%,100%,.5);--Link:#ff3b5c;--Link2:#ff3b5c;--Link3:#ff3b5c;--Primary:#ff3b5c;--Primary2:hsla(0,0%,100%,.9);--SDSecondary:rgba(0,0,0,.68);--SDTertiary:rgba(0,0,0,.5);--TagBrownBG:#805959;--TagBrownText:#ffb3b3;--TagGreenBG:#598066;--TagGreenText:#b2ffd9;--TagPurpleBG:#80596c;--TagPurpleText:#ffb2d9;--TextPrimary:hsla(0,0%,100%,.9);--TextQuaternary:hsla(0,0%,100%,.34);--TextReverse:hsla(0,0%,100%,.9);--TextReverse2:hsla(0,0%,100%,.75);--TextReverse3:hsla(0,0%,100%,.5);--TextReverse4:hsla(0,0%,100%,.34);--TextSecondary:hsla(0,0%,100%,.75);--TextTertiary:hsla(0,0%,100%,.5);--TextTertiary2:hsla(0,0%,100%,.75);--TextTertiaryAlt:hsla(0,0%,100%,.6);--BrandTako2:#fff;--BrandTikTokBackground:#000;--BrandTikTokBackgroundElement:#fff;--BrandTikTokSpotlight:#fff;--BrandTikTokSubjectInSpotlight:#000;--ECCyanBanner:#1a3031;--ECCyanBorder:rgba(168,231,231,.14);--ECCyanTag:rgba(0,184,185,.34);--ECCyanText:#00b8b9;--ECCyanTextOnTag:#a8e7e7;--ECGoldTag:rgba(253,202,94,.32);--ECGoldText:#fdca5e;--ECGoldTextOnTag:#fad8a7;--ECNeutralTag:hsla(0,0%,100%,.2);--ECNeutralText:#c1c1c1;--ECNeutralTextOnTag:#ddd;--ECPrimaryBanner:#392125;--ECPrimaryBorder:rgba(255,183,197,.12);--ECPrimaryTag:rgba(255,59,92,.34);--ECPrimaryTextOnTag:#ffcdce;--InboxFilterHighlight:rgba(21,192,249,.24);--InboxFilterTextOnHighlight:#11bad4;--LocalServicePOIBackground:rgba(19,189,144,.2);--MiscOnlineShape4:rgba(29,215,101,.25);--MiscOnlineText:#22c660;--SocialTextStreak:#ff6612;--UIPageFlat1:#000;--UIPageFlat2:#1e1e1e;--UIPageFlat3:#2c2c2c;--UIPageGrouped1:#000;--UIPageGrouped2:#1e1e1e;--UIPageGrouped3:#2c2c2c;--UIShapeDanger2:rgba(255,76,58,.68);--UIShapeDanger3:rgba(255,76,58,.5);--UIShapeDanger4:rgba(255,76,58,.29);--UIShapeInfo2:rgba(32,151,255,.6);--UIShapeInfo3:rgba(32,151,255,.47);--UIShapeInfo4:rgba(32,151,255,.29);--UIShapeNeutral:#fafafa;--UIShapeNeutral2:hsla(0,0%,100%,.32);--UIShapeNeutral3:hsla(0,0%,100%,.19);--UIShapeNeutral4:hsla(0,0%,100%,.13);--UIShapePrimary2:rgba(254,44,85,.6);--UIShapePrimary3:rgba(254,44,85,.43);--UIShapePrimary4:rgba(254,44,85,.27);--UIShapeSecondary4:rgba(32,213,236,.21);--UIShapeSecondary5:rgba(32,213,236,.13);--UIShapeSecondaryMuted2:rgba(0,162,201,.66);--UIShapeSecondaryMuted3:rgba(0,162,201,.46);--UIShapeSecondaryMuted4:rgba(0,162,201,.3);--UIShapeSecondaryMuted5:rgba(0,162,201,.13);--UIShapeSuccess2:rgba(11,224,155,.66);--UIShapeSuccess3:rgba(11,224,155,.46);--UIShapeSuccess4:rgba(11,224,155,.25);--UIShapeText1OnNeutral:#000;--UIShapeText2OnNeutral:rgba(0,0,0,.48);--UIShapeTextOnSecondary2Or3:#a0edfa;--UIShapeTextOnSecondary4Or5:#81ccd8;--UIShapeTextOnSecondaryMuted2Or3:#ade9ff;--UIShapeTextOnSecondaryMuted4Or5:#86c9e2;--UIShapeWarning2:rgba(255,149,0,.67);--UIShapeWarning3:rgba(255,149,0,.51);--UIShapeWarning4:rgba(255,149,0,.28);--UISheetBackdrop1:rgba(0,0,0,.7);--UISheetBackdrop2:rgba(0,0,0,.5);--UISheetFlat1:#1e1e1e;--UISheetFlat2:#2d2d2d;--UISheetFlat3:#3a3a3a;--UISheetGrouped1:#1e1e1e;--UISheetGrouped2:#2d2d2d;--UISheetGrouped3:#3a3a3a;--UIText1:#f6f6f6;--UIText1Display:#f0f0f0;--UIText2:hsla(0,0%,100%,.88);--UIText3:hsla(0,0%,100%,.6);--UITextDanger:#ff7660;--UITextDangerDisplay:#ff5b48;--UITextInfo:#60b3ff;--UITextInfoDisplay:#60b3ff;--UITextPlaceholder:hsla(0,0%,100%,.4);--UITextPrimary:#ff576f;--UITextPrimaryDisplay:#ff3b5c;--UITextSecondary:#20d5ec;--UITextSecondaryDisplay:#20d5ec;--UITextSuccess:#0be09b;--UITextSuccessDisplay:#0be09b;--UITextWarning:#ffb554}}@supports (display:grid){}
+
+@font-face{font-family:swiper-icons;src:url('data:application/font-woff;charset=utf-8;base64, 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');font-weight:400;font-style:normal}:root{--swiper-theme-color:#007aff}.swiper{margin-left:auto;margin-right:auto;position:relative;overflow:hidden;list-style:none;padding:0;z-index:1}.swiper-wrapper{position:relative;width:100%;height:100%;z-index:1;display:flex;transition-property:transform;box-sizing:content-box}.swiper-wrapper{transform:translate3d(0px,0,0)}.swiper-slide{flex-shrink:0;width:100%;height:100%;position:relative;transition-property:transform}.swiper-backface-hidden .swiper-slide{transform:translateZ(0);-webkit-backface-visibility:hidden;backface-visibility:hidden}
