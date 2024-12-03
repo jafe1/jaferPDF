@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+    <!-- Set character set and viewport for better compatibility -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Include the PDF.js viewer scripts and styles -->
+    <link rel="stylesheet" href="assets/css/web/viewer.css">
+    <script src="assets/js/viewer.js"></script>
+
+    <!-- Document title -->
+    <title>Document</title>
+  
+</head>
+
+<body>
+  
+    <!-- Include the PDFObject library -->
+    <script src="build/pdfobject.js"></script>
+
+    <script>
+      
+        // Configuration options for PDFObject
+        const options = {
+          
+            // Force the use of PDF.js
+            forcePDFJS: true,
+          
+            // URL of PDF.js viewer HTML file
+            PDFJS_URL: "viewer.html",
+         
+        };
+
+        // Embed the PDF using PDFObject with the specified options
+        PDFObject.embed("1.pdf", options);
+      
+    </script>
+  
+</body>
+
+</html>
